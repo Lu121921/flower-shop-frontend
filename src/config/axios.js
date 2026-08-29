@@ -58,7 +58,6 @@ axiosInstance.interceptors.response.use(
       }
     } else if (error.request) {
       // Request made but no response
-      toast.error('Network error. Please check your connection')
     } else {
       // Something else happened
       toast.error('An unexpected error occurred')
